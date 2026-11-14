@@ -1,0 +1,159 @@
+{
+  "pack": "Lunar Command Stylized 3D Asset Pack",
+  "edition": "Balanced",
+  "version": "1.0.0",
+  "units": "meters (approximate; verify per asset)",
+  "coordinate_system": "Y-up is not guaranteed; models are authored with Z-up geometry. Rotate/normalize on import if required by the renderer.",
+  "assets": [
+    {
+      "id": "astronaut-stylized",
+      "path": "models/characters/astronaut_stylized.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "communication-antenna",
+      "path": "models/equipment/communication_antenna.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "oxygen-tank-rack",
+      "path": "models/equipment/oxygen_tank_rack.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "solar-array",
+      "path": "models/equipment/solar_array.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "landing-pad",
+      "path": "models/environment/landing_pad.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "lunar-terrain-tile",
+      "path": "models/environment/lunar_terrain_tile.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "rock-cluster-pack",
+      "path": "models/environment/rock_cluster_pack.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "greenhouse-dome",
+      "path": "models/buildings/greenhouse_dome.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "habitat-module",
+      "path": "models/buildings/habitat_module.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "life-support-station",
+      "path": "models/buildings/life_support_station.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "power-station-solar",
+      "path": "models/buildings/power_station_solar.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "radiation-shelter",
+      "path": "models/buildings/radiation_shelter.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "research-lab",
+      "path": "models/buildings/research_lab.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "lunar-rover",
+      "path": "models/vehicles/lunar_rover.glb",
+      "format": "glb",
+      "source": "Original procedural model generated for Lunar Command",
+      "license": "Original project asset; no third-party source asset used",
+      "status": "included",
+      "notes": "Stylized low-to-mid polygon model; inspect scale and materials in the game scene."
+    },
+    {
+      "id": "greenhouse-glass",
+      "path": "textures/greenhouse_glass.png",
+      "format": "png",
+      "source": "Procedurally generated texture for Lunar Command",
+      "license": "Original project asset",
+      "status": "included"
+    },
+    {
+      "id": "lunar-regolith",
+      "path": "textures/lunar_regolith.png",
+      "format": "png",
+      "source": "Procedurally generated texture for Lunar Command",
+      "license": "Original project asset",
+      "status": "included"
+    },
+    {
+      "id": "metal-panels",
+      "path": "textures/metal_panels.png",
+      "format": "png",
+      "source": "Procedurally generated texture for Lunar Command",
+      "license": "Original project asset",
+      "status": "included"
+    }
+  ]
+}

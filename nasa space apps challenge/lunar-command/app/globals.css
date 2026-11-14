@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+:root {
+  --background: #182536;
+  --foreground: #101820;
+
+  /* Stacks:Space Illustrated Palette */
+  --ink-navy: #182536;
+  --ink-black: #101820;
+  --lunar-blue: #7189A6;
+  --steel-blue: #A8B9CC;
+  --warm-cream: #E7E0CB;
+  --pale-ui: #DCE5F2;
+  --lunar-grey: #85878A;
+  --astro-orange: #C78C55;
+  --astro-green: #79966B;
+  --alert-red: #B9544B;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --color-ink-navy: #182536;
+  --color-ink-black: #101820;
+  --color-lunar-blue: #7189A6;
+  --color-steel-blue: #A8B9CC;
+  --color-warm-cream: #E7E0CB;
+  --color-pale-ui: #DCE5F2;
+  --color-lunar-grey: #85878A;
+  --color-astro-orange: #C78C55;
+  --color-astro-green: #79966B;
+  --color-alert-red: #B9544B;
+}
+
+body {
+  background: #182536;
+  color: #101820;
+  font-family: var(--font-geist-sans), Arial, sans-serif;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Stacks:Space Comic & Graphic-Novel UI Utilities */
+.comic-card {
+  background-color: #DCE5F2;
+  border: 2.5px solid #101820;
+  box-shadow: 3px 3px 0px #101820;
+  border-radius: 14px;
+}
+
+.comic-card-cream {
+  background-color: #E7E0CB;
+  border: 2.5px solid #101820;
+  box-shadow: 3px 3px 0px #101820;
+  border-radius: 14px;
+}
+
+.comic-card-navy {
+  background-color: #182536;
+  border: 2.5px solid #101820;
+  box-shadow: 3px 3px 0px #101820;
+  border-radius: 14px;
+  color: #E7E0CB;
+}
+
+.comic-btn {
+  border: 2px solid #101820;
+  box-shadow: 2.5px 2.5px 0px #101820;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  cursor: pointer;
+}
+
+.comic-btn:hover {
+  filter: brightness(1.05);
+}
+
+.comic-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0.5px 0.5px 0px #101820;
+}
+
+.comic-pill {
+  border: 2px solid #101820;
+  border-radius: 9999px;
+  box-shadow: 2px 2px 0px #101820;
+}
+
+.comic-hazard-stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    #101820,
+    #101820 12px,
+    #7189A6 12px,
+    #7189A6 24px
+  );
+}
+
+.comic-hazard-stripe-orange {
+  background: repeating-linear-gradient(
+    -45deg,
+    #101820,
+    #101820 12px,
+    #C78C55 12px,
+    #C78C55 24px
+  );
+}
+
+.comic-hazard-stripe-cream {
+  background: repeating-linear-gradient(
+    -45deg,
+    #101820,
+    #101820 10px,
+    #E7E0CB 10px,
+    #E7E0CB 20px
+  );
+}
+
+/* Custom ink scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #DCE5F2;
+  border-left: 2px solid #101820;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7189A6;
+  border: 1.5px solid #101820;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #182536;
+}
